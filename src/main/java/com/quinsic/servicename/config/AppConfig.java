@@ -1,4 +1,4 @@
-package com.deloitte.servicename.config;
+package com.quinsic.servicename.config;
 
 import org.springframework.context.annotation.Configuration;
 

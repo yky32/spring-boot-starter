@@ -1,13 +1,13 @@
-package com.deloitte.servicename.endpoint;
+package com.quinsic.servicename.endpoint;
 
-import com.deloitte.core.exception.BizException;
-import com.deloitte.core.response.R;
-import com.deloitte.core.response.Result;
-import com.deloitte.core.response.SystemResponse;
-import com.deloitte.servicename.entity.dto.TestRequestDto;
-import com.deloitte.servicename.entity.dto.TestResponseDto;
-import com.deloitte.servicename.service.TestService;
-import com.deloitte.servicename.usecase.CreateTestUseCase;
+import com.quinsic.core.exception.BizException;
+import com.quinsic.core.response.R;
+import com.quinsic.core.response.Result;
+import com.quinsic.core.response.SystemResponse;
+import com.quinsic.servicename.entity.dto.TestRequestDto;
+import com.quinsic.servicename.entity.dto.TestResponseDto;
+import com.quinsic.servicename.service.TestService;
+import com.quinsic.servicename.usecase.CreateTestUseCase;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;

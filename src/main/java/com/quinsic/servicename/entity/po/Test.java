@@ -1,6 +1,6 @@
-package com.deloitte.servicename.entity.po;
+package com.quinsic.servicename.entity.po;
 
-import com.deloitte.core.entity.AuditEntity;
+import com.quinsic.core.entity.AuditEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

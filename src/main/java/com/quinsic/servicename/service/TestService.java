@@ -1,10 +1,8 @@
-package com.deloitte.servicename.service;
+package com.quinsic.servicename.service;
 
-import com.deloitte.core.exception.BizException;
-import com.deloitte.core.response.SystemResponse;
-import com.deloitte.servicename.entity.dto.TestResponseDto;
-import com.deloitte.servicename.entity.po.Test;
-import com.deloitte.servicename.repository.TestRepository;
+import com.quinsic.servicename.entity.dto.TestResponseDto;
+import com.quinsic.servicename.entity.po.Test;
+import com.quinsic.servicename.repository.TestRepository;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

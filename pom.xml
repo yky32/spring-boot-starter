@@ -9,16 +9,16 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.deloitte</groupId>
+	<groupId>com.quinsic</groupId>
 	<artifactId>starter</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>starter</name>
 	<description>Starter Project for Microservice</description>
 
 	<properties>
 		<java.version>11</java.version>
 		<testcontainers.version>1.17.6</testcontainers.version>
-		<app-core>0.1</app-core>
+		<app-core>0.0.1</app-core>
 	</properties>
 
 	<dependencies>
@@ -54,7 +54,7 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.deloitte</groupId>
+			<groupId>com.quinsic.foundation</groupId>
 			<artifactId>app-core</artifactId>
 			<version>${app-core}</version>
 		</dependency>

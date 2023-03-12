@@ -1,4 +1,4 @@
-package com.deloitte.servicename.service;
+package com.quinsic.servicename.service;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

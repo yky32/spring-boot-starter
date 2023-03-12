@@ -1,4 +1,4 @@
-package com.deloitte.servicename.entity.dto;
+package com.quinsic.servicename.entity.dto;
 
 
 import lombok.AllArgsConstructor;

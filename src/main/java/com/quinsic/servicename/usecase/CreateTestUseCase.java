@@ -1,8 +1,7 @@
-package com.deloitte.servicename.usecase;
+package com.quinsic.servicename.usecase;
 
-import com.deloitte.servicename.repository.TestRepository;
-import com.deloitte.servicename.service.RunService;
-import com.deloitte.servicename.service.TestService;
+import com.quinsic.servicename.service.RunService;
+import com.quinsic.servicename.service.TestService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
 

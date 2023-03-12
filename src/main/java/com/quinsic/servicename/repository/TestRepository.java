@@ -1,6 +1,6 @@
-package com.deloitte.servicename.repository;
+package com.quinsic.servicename.repository;
 
-import com.deloitte.servicename.entity.po.Test;
+import com.quinsic.servicename.entity.po.Test;
 import org.springframework.data.jpa.repository.support.JpaRepositoryImplementation;
 import org.springframework.stereotype.Repository;
 

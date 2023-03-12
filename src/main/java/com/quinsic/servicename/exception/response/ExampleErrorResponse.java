@@ -1,7 +1,7 @@
-package com.deloitte.servicename.exception.response;
+package com.quinsic.servicename.exception.response;
 
 
-import com.deloitte.core.response.Response;
+import com.quinsic.core.response.Response;
 
 /**
  * Example:

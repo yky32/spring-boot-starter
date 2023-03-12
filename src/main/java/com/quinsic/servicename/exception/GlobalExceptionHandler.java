@@ -1,8 +1,8 @@
-package com.deloitte.servicename.exception;
+package com.quinsic.servicename.exception;
 
-import com.deloitte.core.exception.BizException;
-import com.deloitte.core.response.R;
-import com.deloitte.core.response.Result;
+import com.quinsic.core.exception.BizException;
+import com.quinsic.core.response.R;
+import com.quinsic.core.response.Result;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpHeaders;
