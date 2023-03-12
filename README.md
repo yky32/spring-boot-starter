@@ -5,10 +5,10 @@ Spring boot microservice template.
 ## Tech stack
 - Java 11 JDK
 - Git
-- Docker
+- Docker / Docker-compose
 - Maven
 - Junit5 / Mockito
-- MySQL 8
+- MySQL 8 / Postgres
 
 ## Pre-requisite
 
