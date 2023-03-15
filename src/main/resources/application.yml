@@ -6,13 +6,13 @@ spring:
     name: STARTER-SERVICE
   datasource:
     url: ${DB_URL:jdbc:mysql://localhost:3306/test_db}
-    username: ${DB_USERNAME:mysql}
-    password: ${DB_PASSWORD:mysql}
+    username: ${DB_USERNAME:test}
+    password: ${DB_PASSWORD:test}
   jpa:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
         format_sql: true
     hibernate:
-      ddl-auto: update # TODO: disable this feature when in other environment
+      ddl-auto: none # TODO: disable this feature when in other environment
     show-sql: true

@@ -12,6 +12,8 @@
 - MySQL 8 / Postgres
 - JPA
 - Swagger
+- Actuator
+- Flyway / LiquidBase
 
 
 ## Pre-requisite
