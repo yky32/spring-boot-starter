@@ -1,6 +1,7 @@
 # Spring Boot Starter
+- Spring boot microservice template
+- This can be used as `resources server`
 
-Spring boot microservice template.
 
 ## Tech stack
 - Java 11+ JDK
