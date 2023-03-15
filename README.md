@@ -14,7 +14,19 @@
 - Swagger
 - Actuator
 - Flyway / LiquidBase
+- Spring Boot 2.6+
+- Spring Security
+- Kubernetes
 
+# Maven Dependencies
+- used custom dependency to centralize all the libraries and class etc. 
+```xml
+<dependency>
+    <groupId>com.quinsic.foundation</groupId>
+    <artifactId>app-core</artifactId>
+    <version>${app-core}</version>
+</dependency>
+```
 
 ## Pre-requisite
 - [ ] configure your `Users/${user}/.m2/settings.xml` ![img.png](m2-path.png)
@@ -23,8 +35,7 @@
 - [ ] Docker running mysql image
 - [ ] go and see `docker-compose` in `cd ~/.setup`
 
-## Testing 
-
+## Testing
 - [ ] [swagger link](http://localhost:9000/swagger-ui.html)
 
 
@@ -39,3 +50,4 @@
 - repository
 - service
 - usecase `optional`
+
