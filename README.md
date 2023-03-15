@@ -1,4 +1,4 @@
-# spring-boot-template
+# Spring Boot Starter
 
 Spring boot microservice template.
 
@@ -9,9 +9,11 @@ Spring boot microservice template.
 - Maven
 - Junit5 / Mockito
 - MySQL 8 / Postgres
+- JPA
+- Swagger
+
 
 ## Pre-requisite
-
 - [ ] configure your `Users/${user}/.m2/settings.xml` ![img.png](m2-path.png)
 - [ ] put down your `GitLab/GitHub` `accessToken` ![img.png](setting-xml.png)
   - [GitLab Generating Token Link](https://deloitte.team/help/user/profile/personal_access_tokens.md#create-a-personal-access-token)
