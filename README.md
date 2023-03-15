@@ -3,7 +3,7 @@
 Spring boot microservice template.
 
 ## Tech stack
-- Java 11 JDK
+- Java 11+ JDK
 - Git
 - Docker / Docker-compose
 - Maven
