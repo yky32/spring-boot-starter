@@ -1,6 +1,7 @@
 package com.quinsic.servicename.entity.po;
 
 import com.quinsic.core.entity.AuditEntity;
+import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -14,6 +15,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 @Entity
 @Table
+@TypeDef(name = "jsonb", typeClass = JsonBinaryType.class)
 @Builder
 public class Test extends AuditEntity {
 

@@ -18,7 +18,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<testcontainers.version>1.17.6</testcontainers.version>
-		<app-core>0.0.1</app-core>
+		<app-core>0.0.1-SNAPSHOT</app-core>
 	</properties>
 
 	<dependencies>
