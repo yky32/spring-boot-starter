@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  test-db:
+    container_name: test-db
+    image: postgres:10.10-alpine
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: test_db
+    volumes:
+      - postgres_test:/var/lib/postgresql/data
+    ports:
+      - ${POSTGRES_PORT:-5433}:5432
+
+volumes:
+  postgres_test:

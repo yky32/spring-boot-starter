@@ -9,7 +9,7 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=db_name
+      - POSTGRES_DB=test_db
     volumes:
       - db_data:/var/lib/postgresql/data
     ports:
@@ -23,7 +23,7 @@ services:
     image: yky32/starter-service:latest
     restart: always
     environment:
-      - DB_URL=jdbc:postgresql://backend-db/db_name
+      - DB_URL=jdbc:postgresql://backend-db/test_db
     ports:
       - "9000:9000"
     links:
