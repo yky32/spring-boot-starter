@@ -19,9 +19,17 @@
 		<java.version>11</java.version>
 		<testcontainers.version>1.17.6</testcontainers.version>
 		<app-core>0.0.1-SNAPSHOT</app-core>
+		<oauth2-resource-server.version>5.4.6</oauth2-resource-server.version>
 	</properties>
 
 	<dependencies>
+		<!-- Security -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-oauth2-resource-server</artifactId>
+			<version>${oauth2-resource-server.version}</version>
+		</dependency>
+		<!-- Security -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>

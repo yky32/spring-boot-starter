@@ -52,5 +52,5 @@
 - usecase `optional`
 
 ## Oauth2 - Resources Server
-Spring Security 5.1 Resource Server only supports JWK-signed JWTs as authorization
+Spring Security 5.1 Resource Server only supports JWK-signed JWTs as authorization <br>
 `spring.security.oauth2.resourceserver.jwk-set-uri=http://localhost:8081/sso-auth-server/.well-known/jwks.json`
