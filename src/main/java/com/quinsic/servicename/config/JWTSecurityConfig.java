@@ -22,10 +22,10 @@ public class JWTSecurityConfig {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
 
-                .authorizeRequests(authz -> authz.antMatchers(HttpMethod.GET, "/foos/**")
-                        .hasAuthority("SCOPE_read")
-                        .antMatchers(HttpMethod.POST, "/foos")
-                        .hasAuthority("SCOPE_write")
+                .authorizeRequests(authz -> authz
+                        .antMatchers(HttpMethod.GET, "/foos/**").hasAuthority("SCOPE_read")
+                        .antMatchers(HttpMethod.POST, "/foos").hasAuthority("SCOPE_write")
+                        .antMatchers("/actuator/**").permitAll()
                         .anyRequest()
                         .authenticated()
                 )
