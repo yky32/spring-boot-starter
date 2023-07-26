@@ -1,17 +1,17 @@
 server:
-  port: 9000
+  port: 9001
 
 spring:
   application:
     name: STARTER-SERVICE
   datasource:
-    url: ${DB_URL:jdbc:postgresql://localhost:5433/test_db}
+    url: ${DB_URL:jdbc:postgresql://yky32.abc.com:5435/test_db}
     username: ${DB_USERNAME:postgres}
     password: ${DB_PASSWORD:postgres}
   jpa:
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgreSQL95Dialect
+        dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
     hibernate:
       ddl-auto: none

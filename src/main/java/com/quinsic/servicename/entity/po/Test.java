@@ -2,20 +2,20 @@ package com.quinsic.servicename.entity.po;
 
 import com.quinsic.core.entity.AuditEntity;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.annotations.TypeDef;
+import org.hibernate.annotations.Type;
 
-import javax.persistence.*;
+
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
 @Table
-@TypeDef(name = "jsonb", typeClass = JsonBinaryType.class)
 @Builder
 public class Test extends AuditEntity {
 
@@ -26,4 +26,8 @@ public class Test extends AuditEntity {
 
     @Column(name = "user_id")
     private String test;
+
+    @Type(JsonBinaryType.class)
+    @Column(columnDefinition = "jsonb")
+    private Object metadata;
 }

@@ -4,17 +4,17 @@
 
 
 ## Tech stack
-- Java 11+ JDK
+- Java 17+ JDK
 - Git
 - Docker / Docker-compose
 - Maven
 - Junit5 / Mockito
-- MySQL 8 / Postgres
+- Postgres
 - JPA
 - Swagger
 - Actuator
 - Flyway / LiquidBase
-- Spring Boot 2.6+
+- Spring Boot 3.1+
 - Spring Security
 - Kubernetes
 

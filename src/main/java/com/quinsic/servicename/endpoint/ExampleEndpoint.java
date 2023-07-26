@@ -8,11 +8,11 @@ import com.quinsic.servicename.entity.dto.TestRequestDto;
 import com.quinsic.servicename.entity.dto.TestResponseDto;
 import com.quinsic.servicename.service.TestService;
 import com.quinsic.servicename.usecase.CreateTestUseCase;
+import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/test")
