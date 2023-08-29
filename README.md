@@ -53,6 +53,7 @@
 
 ## Oauth2 - Resources Server
 Spring Security 5.1 Resource Server only supports JWK-signed JWTs as authorization <br>
+
 ```yaml
 spring:
   security:
